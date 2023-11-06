@@ -1,0 +1,8 @@
+{
+  "domain": "mav",
+  "name": "MAV Arrival and Departure Board",
+  "documentation": "https://github.com/szabogyula/mav-arrival-departure-board",
+  "issue-tracker": "https://github.com/szabogyula/mav-arrival-departure-board/issues",
+  "codeowners": ["@szabogyula"],
+  "version": "0.1.0"
+}
