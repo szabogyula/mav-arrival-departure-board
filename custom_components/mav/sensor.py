@@ -20,7 +20,12 @@ class MavSensor(Entity):
     def station(self):
         ''' Returns the station code, e.g., 005503178 '''
         return self._station
-
+    
+    @property
+    def device_state_attributes(self):
+        """Return the state attributes of the sensor."""
+        return self._custom_attributes
+    
     @property
     def departures(self):
         return self.stationInfo['stationSchedulerDetails']['departureScheduler']

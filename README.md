@@ -10,8 +10,14 @@ To install this component, follow these steps:
 
 2. Add the following to your `configuration.yaml` file:
 
+To configure this component, you need to add the following to your `configuration.yaml` file in the `sensor` domain:
+
 ```yaml
-my_component:
+sensor:
+  - platform: mav
+    name: Martonvásár Arrival Department Board
+    state: 0
+    station: 005503178 # Martonvasar
 ```
 
 3. Restart Home Assistant.
